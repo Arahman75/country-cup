@@ -68,8 +68,8 @@ main {
 .sidebar {
     background: #161616;
     border-radius: 10px;
-    height: 200px;
-    padding: 30px;
+    height: 260px;
+    padding: 10px 30px;
 }
 
 .second-btn {
@@ -80,20 +80,99 @@ main {
     font-weight: 600;
     font-size: 20px;
     color: #161616;
+    margin: 10px 0;
 }
 
-.box-2 {
-    background-color: #0097dd;
+.second-btn:hover {
+    background-color: #DD0000;
 }
 
-.box-2 {
-
+.side-blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+    grid-gap: 20px;
 }
 
-.box-2 div {
-    border: 2px solid red;
-    background-color: blanchedalmond;
+.side-blog img {
+    width: 100%;
+}
+
+.blog {
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 10px;
+
+}
+
+.blog-description {
+    padding: 15px;
+}
+
+.blog-description button {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(232, 230, 230);
+}
+
+.blog-description p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.ratting {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.ratting img {
+    margin-right: 10px;
+}
+
+.clock-img {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #161616;
+    margin-top: 80px;
+    padding: 40px 0;
+}
+
+footer h4 {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+.footer-title {
+    width: 1220px;
+    margin: auto;
+}
+
+.footer-title hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-link>p>a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B9B9B9;
+    ;
 }
