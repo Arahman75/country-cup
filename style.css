@@ -8,6 +8,7 @@ body {
 }
 
 .header {
+    margin-top: 50px;
     width: 1220px;
     margin: auto;
     background: #161616;
@@ -87,17 +88,6 @@ main {
     text-decoration: none;
     color: #161616;
 }
-
-/* .second-btn {
-    width: 100%;
-    padding: 20px 0;
-    background: white;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #161616;
-    margin: 10px 0;
-} */
 
 .link-btn:hover {
     background-color: #DD0000;
@@ -191,4 +181,46 @@ footer h4 {
     font-size: 16px;
     color: #B9B9B9;
     ;
+}
+
+/* upcoming match */
+.flags {
+    border: 1px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    padding: 40px 20px;
+    height: 150px;
+
+}
+
+.flag {
+    display: flex;
+}
+
+.flag img {
+    width: 85px;
+    height: 56px;
+}
+
+.flag h4 {
+    margin: 0 20px;
+    display: flex;
+    width: 22px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-description h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #161616;
+    text-align: center;
+}
+
+.flag-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    color: #4D4D4D;
+    text-align: center;
 }
